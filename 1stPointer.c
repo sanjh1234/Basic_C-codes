@@ -11,6 +11,7 @@ int main(){
     printf("%p\n",&age);
     printf("%u\n",ptr);
     printf("%u\n",&ptr);
+    printf("%d\n",*(&age));
     
     return 0;
 }
